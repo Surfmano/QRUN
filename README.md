@@ -24,7 +24,7 @@ Une application web simple pour les associations permettant :
 - [SQLite](https://www.sqlite.org/index.html) — Base de données légère
 - [Werkzeug Security](https://werkzeug.palletsprojects.com/) — Pour le hash des mots de passe
 - [qrcode](https://pypi.org/project/qrcode/) — Génération d’images QR code
-- [Bootstrap](https://getbootstrap.com/) (optionnel) — Pour une interface simple et responsive
+- [Bootstrap](https://getbootstrap.com/) — Pour une interface simple et responsive
 
 ---
 

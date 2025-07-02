@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h2>Member Profile: {{ member.name }}</h2>
+    <p>Email: {{ member.email }}</p>
+    <p>Date Joined: {{ member.date_joined.strftime('%Y-%m-%d') }}</p>
+    <img src="{{ url_for('static', filename='qrcodes/' + member.uuid + '.png') }}" alt="QR Code">
+</body>
+</html>

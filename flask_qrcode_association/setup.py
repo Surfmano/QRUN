@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="flask_qrcode_association",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[
+        'Flask==2.0.1',
+        'Flask-SQLAlchemy==2.5.1',
+        'Flask-Bcrypt==1.0.1',
+        'Flask-Login==0.5.0',
+        'Flask-WTF==1.0.1',
+        'qrcode==7.3.1',
+        'email-validator==1.1.2',
+        'pytest==8.1.1'
+    ],
+)
