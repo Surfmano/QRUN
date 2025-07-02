@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, redirect, url_for, flash, request
-from forms import RegistrationForm, LoginForm
-from models import User
-from app import db, bcrypt
+from flask_qrcode_association.forms import RegistrationForm, LoginForm
+from flask_qrcode_association.models import User
+from flask_qrcode_association.app import db, bcrypt
 from flask_login import login_user, current_user, logout_user, login_required
 
 auth = Blueprint('auth', __name__)

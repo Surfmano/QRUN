@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, redirect, url_for, flash, request
-from models import Member
-from app import db
+from flask_qrcode_association.models import Member
+from flask_qrcode_association.app import db
 import uuid
 import qrcode
 from flask_login import login_required
