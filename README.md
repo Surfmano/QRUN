@@ -48,7 +48,7 @@ flask run
 ```
 
 Accéder à http://127.0.0.1:5000
-
+```bash
 📁 Arborescence
 cpp
 Copier
@@ -68,6 +68,7 @@ flask-qrcode-association/
 │   ├── member_profile.html
 ├── requirements.txt
 └── README.md
+```
 🔐 Sécurité
 Les mots de passe sont hashés avec Werkzeug (bcrypt ou pbkdf2_sha256)
 
