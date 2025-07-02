@@ -45,6 +45,8 @@ pip install -r requirements.txt
 #4. Lancer l’application
 
 flask run
+bash
+
 Accéder à http://127.0.0.1:5000
 
 📁 Arborescence
